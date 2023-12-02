@@ -1,0 +1,91 @@
+.nav-container{
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* extra small devices */
+@media only screen and (max-width: 600px) {
+
+  .nav-main{}
+
+  .link-container{}
+
+  .link{}
+
+}
+
+/* small devices, portrait tablets & larger phones, 600px & up */ 
+@media only screen and (min-width: 600px) {
+
+
+  .nav-main{}
+
+  .link-container{}
+
+  .link{}
+  
+}
+
+/* medium devices, landscape tables and up */ 
+@media only screen and (min-width: 768px) {
+
+  .nav-main{}
+
+  .link-container{}
+
+  .link{}
+}
+
+/* desktops and such */
+@media only screen and (min-width: 992px) {
+
+  .title {
+    display: inline;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .link-container{
+    list-style: none;
+    padding: auto; 
+    margin: 0;
+  }
+
+  .link-container {
+    float: right;
+    margin: auto; 
+    padding: 0px 12px 0px 0px;
+  }
+
+  .link-container li {
+    float: left;
+    margin: auto;
+  }
+
+  .link-container li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px, 16px;
+  }
+
+  .link-container li:hover{
+    background-color: #3786e1;
+  }
+
+}
+
+/* this user has a screen bigger than all of my ex's egos combined */ 
+@media only screen and (min-width: 1200px) {
+
+
+  .nav-main{}
+
+  .link-container{}
+
+  .link{}
+  
+}
